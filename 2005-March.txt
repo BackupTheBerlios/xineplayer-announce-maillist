@@ -1,0 +1,34 @@
+From l33t.dude at gmail.com  Tue Mar 22 03:55:37 2005
+From: l33t.dude at gmail.com (Rich Wareham)
+Date: Tue, 22 Mar 2005 02:55:37 +0000
+Subject: [XinePlayer-announce] XinePlayer version 0.2 released!
+Message-ID: <fa8acc90503211855677428db@mail.gmail.com>
+
+Lots of new features. Download from http://xineplayer.berlios.de/ as always.
+
+ChangeLog:
+
+	* 'Open URL...' menu option.
+	* Support for playlist-like files (e.g. RealAudio streams from websites).
+	* Any errors opening a stream are reported.
+	* Reports progress of network operations.
+	* Uses less memory and CPU (hopefully) on lower-spec machines.
+	* Ogg vorbis support.
+	* If XinePlayer cannot open a movie it will tell you.
+	* Can automatically resize window on movie size change.
+	* Display a little notification in the video window when state
+changes (e.g. deinterlace is toggled, etc).
+	* Attempt to open any type of file passed (i.e. no longer
+	grey-out files in Open dialogue).
+	* Deinterlacing is now done via xine's tvtime deinterlace plugin.
+	* Implement preferences dialogue.
+	* Audio visualisation support.
+	* Support post-processing plugins.
+	* Only use one xine engine instance per app.
+	* Fix frame corruption bug whereby colours appeared 'streaky' with
+certain movies.
+
+-- 
+Rich Wareham
+
+
